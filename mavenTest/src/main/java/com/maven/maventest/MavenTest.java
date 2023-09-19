@@ -11,6 +11,9 @@ package com.maven.maventest;
 public class MavenTest {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        distanceCalculator calc = new distanceCalculator();
+        
+        System.out.println(calc.calculateDistance(4.0, 2.0, 1.0, 3.5));
     }
 }
