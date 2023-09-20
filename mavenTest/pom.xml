@@ -47,9 +47,6 @@
                             <goal>report</goal>
                         </goals>
                         <configuration>
-                            <includes>
-                                <include>**/*.class</include>
-                            </includes>
                             <outputDirectory>
                                 target/jacoco-report
                             </outputDirectory>
